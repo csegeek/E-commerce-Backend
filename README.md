@@ -2,6 +2,6 @@
 
 ### Documentation: https://documenter.getpostman.com/view/18884380/UVsPQjxX
 
-Auhentication \
+Authentication \
 username=vikash\
 password=vedx
