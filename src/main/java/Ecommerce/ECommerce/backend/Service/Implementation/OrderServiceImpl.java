@@ -33,7 +33,7 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public Order addOrder(OrderReceive orderreceive) throws Exception {
        
-        if(orderreceive.getStatus()!=OrderStatus.Completed ||orderreceive.getStatus()!=OrderStatus.Prepared ||
+        if(orderreceive.getStatus()!=OrderStatus.Completed && orderreceive.getStatus()!=OrderStatus.Prepared &&
         orderreceive.getStatus()!=OrderStatus.Delivered) throw new Exception ("Wrong status");
         Order order=new Order();
         order.setCustomer(this.customerRepo.getById(orderreceive.getCustomer_id()));
