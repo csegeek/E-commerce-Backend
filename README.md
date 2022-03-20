@@ -1,5 +1,5 @@
 # Vedx-E-commerce-Backend
 
-Auhentication 
-username=vikash
+Auhentication \
+username=vikash\
 password=vedx
