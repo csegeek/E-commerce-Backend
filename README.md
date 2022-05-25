@@ -1,4 +1,4 @@
-# Vedx-E-commerce-Backend
+# E-commerce-Backend
 
 ### Documentation: https://documenter.getpostman.com/view/18884380/UVsPQjxX
 
